@@ -12,19 +12,53 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container mobile-header">
             <button type="button" class="burger-button">
-                    <svg width="12" height="12">
-                        <use></use>
+                    <svg class="menu-svg" width="28" height="28">
+                        <use href="./img/icons.svg#icon-menu-mob"></use>
                     </svg>
             </button>
-            <nav>
-                <a href="./index.html">
-                    <p class="logo-name">Mimino</p>
-                    <p class="logo-text">restaurant-hotel complex</p>
-                </a>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-link current" href="./index.html">home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">hotel</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">restaurant</a>
+                    </li>
+                </ul>
             </nav>
+            <a class="header-logo" href="./index.html">
+                <p class="logo-name">Mimino</p>
+                <p class="logo-text">restaurant-hotel complex</p>
+            </a>
+            <ul class="header-socials">
+                <li>
+                    <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <svg width="24" height="24">
+                            <use href="./img/icons.svg#icon-inst-tab"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <svg width="24" height="24">
+                            <use href="./img/icons.svg#icon-fcb-tab"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                        <svg width="24" height="24">
+                            <use href="./img/icons.svg#icon-tw-tab"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
     <section>
